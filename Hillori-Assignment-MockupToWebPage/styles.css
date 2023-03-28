@@ -1,0 +1,307 @@
+@font-face { font-family: Inter; src: url('./fonts/Inter/Inter-VariableFont_slnt\,wght.ttf'); } 
+@font-face { font-family: League Spartan; src: url('./fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf');}
+@font-face { font-family: Poppins; src: url('./fonts/Poppins/Poppins-Regular.ttf');}
+@font-face { font-family: Roboto; src: url('./fonts/Roboto/Roboto-Regular.ttf');}
+
+.page {
+    margin: 0;
+    background-color: #FFF8F0;
+}
+.main {
+    min-width: 25rem;
+}
+
+.main .about-me {
+    margin-left: 15%;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    min-height: 35rem;
+    min-width: 35rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .about-me .about-me-text {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 1.5rem 3rem 0.5rem;
+    flex-grow: 1;
+    width: 45%;
+}
+
+.main .about-me .about-me-text .contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.main .about-me .about-me-text .contact .text {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.main .about-me .about-me-text .contact .contact-number{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.main .about-me .about-me-text .contact .contact-emailid{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: right;
+}
+
+.main .about-me .about-me-text .contact .icon{
+    display: inline;
+    padding: 0.125rem;
+    vertical-align: middle;
+}
+
+.main .about-me .about-me-text .first-line {
+    display: block;
+    margin: 1rem 0rem 0.5rem 0rem;
+    font-size: 1rem;
+}
+
+.main .about-me .about-me-text .heading {
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.main .about-me .about-me-text .description {
+    margin: 0.5rem 0rem 0rem 0rem;
+    font-size: 1.125rem;
+
+}
+
+.main .about-me .about-me-text .contact-me-button {
+    display: block;
+    width: fit-content;
+    margin: 1.5rem 0rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem 0.8rem 1.5rem;
+    background-color: #2F2F2F;
+    border-radius: 4px;
+    color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.main .about-me .about-me-photo {
+    max-height: 35rem;
+    max-width: 35rem;
+    flex-grow: 1;
+    padding: 0rem 0rem 0rem auto;
+}
+
+.main .about-me .about-me-photo #about-me-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 8em 8em;
+}
+
+.main .what-i-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+}
+
+.main .summary{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem 19rem;
+}
+
+.main .summary .first-line{
+    font-size: 0.75rem;
+}
+
+.main .summary .heading{
+    padding: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.main .summary .description{
+    padding: 0.8rem 0rem 0.8rem 0rem;
+    font-size: 1.125rem;
+}
+
+.main .detailed{
+    display: flex;
+    margin: auto 7.5rem;
+}
+
+.main .what-i-do .detailed{
+    flex-direction: row;
+}
+
+.main .what-i-do .detailed .col{
+    margin: 0.25rem;
+    padding: 1.25rem;
+    background: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.main .what-i-do .detailed .col .title{
+    font-size: 1.125rem;
+    padding: 0.5rem;
+}
+
+.main .my-projects {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto 10rem auto;
+    flex-wrap: wrap;
+}
+
+.main .my-projects .detailed{
+    flex-direction: column;
+}
+
+.main .my-projects .detailed .row{
+    display: flex;
+    flex-direction: row;
+    margin: 1.25rem auto;
+}
+
+.main .my-projects .detailed .row .thumbnail{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3rem;
+    margin: 0 0.5rem auto 0;
+    width: 10rem;
+    border-radius: 10px;
+}
+
+.main .my-projects .detailed .row .text  {
+    margin: 0 1rem; 
+}
+.main .my-projects .detailed .row .text .link a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #6A87A3;
+}
+
+.main .my-projects .detailed .row .first{
+    background: #19ACFF;
+}
+
+.main .my-projects .detailed .row .second{
+    background: #FFE819;
+}
+
+.main .my-projects .detailed .row .third{
+    background: #FF1919;
+}
+
+.footer {
+    color: #FFFFFF;
+    background-color: #000000;
+    height: 3.5rem;
+    text-align: center;
+    vertical-align: super;
+    line-height: 3.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.main h1 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-size: 3rem;
+    color: #190D37;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.main h2 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #000000;
+    padding: 0.25rem;
+    margin: auto;
+}
+
+.main h3 {
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1.125rem;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.main .description h3 {
+    margin: auto 0rem;
+    font-weight: 400;
+    color: #190D37;
+}
+
+.main .title h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.main h5 {
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1.125rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.main .subheading h5 {
+    color: #2858FF;
+    font-weight: 600;
+}
+
+.main .title h5 {
+    color: #291854;
+    font-weight: 700;
+}
+
+.main .xsmall {
+    display: inline;
+    padding: 0.0625rem;
+    font-size: 0.75rem;
+}
+
+.main p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main .what-i-do p {
+    font-size: 1rem;
+    color: #55206D;
+}
+
+.main .my-projects p {
+    font-size: 1.125rem;
+    color: #190D37;
+}
+
+#thin-font {
+    font-weight: 400;
+}
