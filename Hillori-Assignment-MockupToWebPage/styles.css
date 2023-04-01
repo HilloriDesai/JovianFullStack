@@ -1,59 +1,56 @@
 @font-face { font-family: Inter; src: url('./fonts/Inter/Inter-VariableFont_slnt\,wght.ttf'); } 
 @font-face { font-family: League Spartan; src: url('./fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf');}
 @font-face { font-family: Poppins; src: url('./fonts/Poppins/Poppins-Regular.ttf');}
+@font-face { font-family: Poppins-bold; src: url('./fonts/Poppins/Poppins-Bold.ttf');}
 @font-face { font-family: Roboto; src: url('./fonts/Roboto/Roboto-Regular.ttf');}
 
 .page {
-    margin: 0;
     background-color: #FFF8F0;
+    margin: 0px;
 }
 .main {
     min-width: 25rem;
 }
 
 .main .about-me {
-    margin-left: 15%;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: row;
-    min-height: 35rem;
-    min-width: 35rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    height: 37.5rem;
+    width: 78.125rem;
+    margin: 0rem 0rem 5rem 11.5rem
 }
 
 .main .about-me .about-me-text {
-    display: flex;
-    flex-direction: column;
-    margin: 1.5rem 1.5rem 3rem 0.5rem;
-    flex-grow: 1;
-    width: 45%;
+    float: left;
+    padding: 1.5rem 0rem 3rem 0rem;
+    width: 34rem;
+    height: 100%
 }
 
 .main .about-me .about-me-text .contact {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    height: 1.5rem;
+    margin: 0rem 0.25rem 2.5rem 0rem;
 }
 
 .main .about-me .about-me-text .contact .text {
-    display: flex;
-    flex-direction: row;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
+    padding-right: 1rem;
 }
 
 .main .about-me .about-me-text .contact .contact-number{
-    display: flex;
-    flex-direction: row;
+    display: inline;
     width: 50%;
+    float: left;
+    text-align: left;
 }
 
 .main .about-me .about-me-text .contact .contact-emailid{
-    display: flex;
-    flex-direction: row;
     width: 50%;
     justify-content: right;
+    display: inline;
+    float: right;
+    text-align: right;
 }
 
 .main .about-me .about-me-text .contact .icon{
@@ -64,18 +61,21 @@
 
 .main .about-me .about-me-text .first-line {
     display: block;
-    margin: 1rem 0rem 0.5rem 0rem;
+    margin: 0rem 0.25rem 0.5rem 0rem;
     font-size: 1rem;
+    color: #291854;
 }
 
 .main .about-me .about-me-text .heading {
-    margin: 0rem 0rem 0.5rem 0rem;
+    width: 32.5rem;
+    margin: 0rem 0rem 1.5rem 0rem;
 }
 
 .main .about-me .about-me-text .description {
-    margin: 0.5rem 0rem 0rem 0rem;
+    height: 8rem;
+    margin: 0rem 0rem 0rem 0rem;
     font-size: 1.125rem;
-
+    width: 95%;
 }
 
 .main .about-me .about-me-text .contact-me-button {
@@ -93,33 +93,25 @@
 }
 
 .main .about-me .about-me-photo {
-    max-height: 35rem;
-    max-width: 35rem;
-    flex-grow: 1;
-    padding: 0rem 0rem 0rem auto;
+    float: right;
+    width: 44rem;
+    height: 100%;
 }
 
 .main .about-me .about-me-photo #about-me-image{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px 0px 8em 8em;
+    border-radius: 0px 0px 12.5rem 12.5rem;
 }
 
 .main .what-i-do {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 3rem auto;
-    flex-wrap: wrap;
+    width: 67rem;
+    margin: 2rem 11.5rem;
 }
 
 .main .summary{
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    margin: 1rem 19rem;
+    justify-content: center;
+    margin: 1rem auto;
 }
 
 .main .summary .first-line{
@@ -127,55 +119,62 @@
 }
 
 .main .summary .heading{
+    margin: 0.125rem auto;
+    width: 43.75rem;
     padding: 0.25rem 0rem 0.25rem 0rem;
 }
 
 .main .summary .description{
+    margin: 0.125rem auto;
     padding: 0.8rem 0rem 0.8rem 0rem;
     font-size: 1.125rem;
+    width: 42rem;
 }
 
 .main .detailed{
-    display: flex;
-    margin: auto 7.5rem;
+    margin: 0.25rem auto;
 }
 
 .main .what-i-do .detailed{
-    flex-direction: row;
+    height: 18.19rem;
+    width: 78.125rem;
 }
 
 .main .what-i-do .detailed .col{
     margin: 0.25rem;
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 0rem 1.25rem;
+    width: 18.75em;
+    height: 15.68;
     background: #FFFFFF;
     box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    text-align: center;
+    float: left;
 }
 
 .main .what-i-do .detailed .col .title{
     font-size: 1.125rem;
-    padding: 0.5rem;
 }
+
 
 .main .my-projects {
-    display: flex;
-    flex-direction: column;
-    margin: 5rem auto 10rem auto;
-    flex-wrap: wrap;
+    width: 69rem;
+    margin: 5rem 11.5rem;
+    height: 100%;
 }
 
-.main .my-projects .detailed{
-    flex-direction: column;
+.main .my-projects .detailed {
+    height: 37.5rem;
+    margin: 2rem 0;
 }
-
 .main .my-projects .detailed .row{
-    display: flex;
-    flex-direction: row;
+    height: 33.33%;
     margin: 1.25rem auto;
 }
 
 .main .my-projects .detailed .row .thumbnail{
-    font-family: 'Poppins';
+    float: left;
+    font-family: 'Poppins-bold';
     font-style: normal;
     font-weight: 700;
     font-size: 3rem;
@@ -183,13 +182,17 @@
     color: #FFFFFF;
     padding: 3rem;
     margin: 0 0.5rem auto 0;
-    width: 10rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 10px;
 }
 
 .main .my-projects .detailed .row .text  {
+    float: left;
     margin: 0 1rem; 
+    width: 55rem;
 }
+
 .main .my-projects .detailed .row .text .link a{
     font-family: 'Inter';
     font-style: normal;
@@ -220,6 +223,8 @@
     line-height: 3.5rem;
     font-family: 'Poppins';
     font-style: normal;
+    width: 90rem;
+    margin-top: 7.5rem;
 }
 
 .main h1 {
@@ -250,6 +255,14 @@
     padding: 0.25rem;
 }
 
+.main h4 {
+    display: inline;
+    font-family: 'Poppins-bold';
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #291854;
+}
+
 .main .description h3 {
     margin: auto 0rem;
     font-weight: 400;
@@ -266,7 +279,7 @@
     display: inline;
     font-family: 'Poppins';
     font-style: normal;
-    font-size: 1.125rem;
+    font-size: 0.75rem;
     margin: 0 0 0.5rem 0;
 }
 
@@ -282,24 +295,23 @@
 
 .main .xsmall {
     display: inline;
-    padding: 0.0625rem;
+    padding: 0.25rem;
     font-size: 0.75rem;
+    line-height: 0.75rem;
+    vertical-align: middle;
 }
 
 .main p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-}
-
-.main .what-i-do p {
     font-size: 1rem;
     color: #55206D;
+    line-height: 1.5rem;
 }
 
 .main .my-projects p {
-    font-size: 1.125rem;
-    color: #190D37;
+    margin: 0.5rem 0rem
 }
 
 #thin-font {
